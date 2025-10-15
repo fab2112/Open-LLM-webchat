@@ -1,0 +1,32 @@
+# Open-LLM-webchat
+services:
+  openwebchat:
+    container_name: openwebchat
+    build: .
+    image: openwebchat
+    restart: always
+    env_file:
+      - .env
+    networks:
+      - system_net
+    ports:
+      - 7860:7860
+    volumes:
+      # mount the host's Docker socket for running internal docker's MCPs 
+      - /var/run/docker.sock:/var/run/docker.sock   
+      - data:/home/app/src/tmp
+    group_add:
+      # GID of the docker group on the host - via host terminal: <getent group docker> 
+      - 986   
+    extra_hosts:
+      - "localhost:host-gateway"
+
+networks:
+  system_net:
+    driver: bridge
+
+volumes:
+  data:
+    external: False
+
+

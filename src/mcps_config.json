@@ -1,0 +1,36 @@
+{
+
+    "time": {
+        "command": "docker",
+        "args": [
+            "run",
+            "-i",
+            "--rm",
+            "mcp/time"
+        ]
+    },
+
+    "tavily-mcp": {
+        "command": "npx",
+        "args": [
+            "-y",
+            "tavily-mcp@0.1.2"
+        ],
+        "env": {
+            "TAVILY_API_KEY": "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"
+        }
+    },
+
+    "mcp-code-interpreter": {
+      "command": "docker",
+        "args": [
+            "run",
+            "-i",
+            "--rm",
+            "-v",
+            "/local-directory:/local-directory",
+            "mcp/mcp-code-interpreter"
+        ]
+    }
+
+}

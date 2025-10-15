@@ -1,0 +1,635 @@
+/* Root vars - custom Light theme */
+:root {
+    --color-base-1: rgb(238, 238, 238) !important;
+    --color-base-2: rgb(235, 235, 235) !important;
+    --color-base-3: white !important;
+    --color-base-4: black !important;
+    --scroll-colors: #ccc #eee !important;
+    --row-1-backgound-color: #cacaca !important;
+    --row-2-backgound-color: #cacaca !important;
+    --button-1-background-color: rgb(235, 235, 235) !important;
+    --button-1-border-color: black!important;
+    --button-2-background-color: #7196c0 !important;
+    --button-3-color: rgb(79, 80, 150) !important;
+    --button-3-border-color: rgba(79, 80, 150, 0.3) !important;
+    --button-4-color: rgb(202, 84, 0) !important;
+    --button-4-border-color: rgba(202, 84, 0, 0.3) !important;
+    --button-5-background-color: rgb(235, 235, 235) !important;
+    --button-6-color: rgb(80, 81, 129) !important;
+    --button-6-background-color: rgb(224, 224, 224) !important;
+    --button-6-border-hover-color: rgba(80, 81, 129, 0.5) !important;
+    --button-7-background-color: #7196c0 !important;
+    --button-8-background-color: #7196c0 !important;
+    --textbox-1-textarea-color: black !important;
+    --textbox-1-border: black !important;
+    --group-2-border: rgb(194, 194, 228) !important;
+    --group-1-background-color: white !important;
+    --group-2-background-color: #cacaca !important;
+    --group-2-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px !important;
+    --chatbot-message-bot-background-color: rgba(234, 251, 255, 0.733) !important;
+    --chatbot-message-user-background-color: rgb(186, 228, 238) !important;
+    --number-1-p-color: black !important;
+    --dropdown-1-background-color: white !important;
+    --dropdown-1-hover-background-color: #e2e2e2 !important;
+    --dropdown-1-color: black !important;
+    --dropdown-1-listbox-color: #0b4aa8 !important;
+    --dropdown-1-li-color: #4a9405 !important;
+    --slide-1-background-color: white !important;
+    --radio-1-background-color: white !important;
+    --radio-1-input-checked-color: black !important;
+    --radio-1-input-notchecked-color: #A9A9A9 !important;
+    --radio-1-input-hover-background-color: rgb(233, 233, 233) !important;
+    --radio-2-background-color: white !important;
+    --radio-2-info-color: black !important;
+    --file-1-background-color: white !important;
+    --file-1-blocklevel-background-color: #E8E8E8 !important;
+    --file-1-blocklevel-color: black !important;
+    --sidebar-toggle-button-bgcolor: white !important;
+    --sidebar-toggle-button-chevronleft-color: grey !important;
+    --markdown-1-color: rgba(83, 83, 131, 0.99) !important;
+}
+
+/* Root vars - custom dark theme */
+.dark {
+    --color-base-1: #161717 !important;
+    --color-base-2: #121212 !important;
+    --color-base-3: #27272A !important;
+    --color-base-4: #F4F4F5 !important;
+    --scroll-colors: #444 #222 !important;
+    --row-1-backgound-color: #383838 !important;
+    --row-2-backgound-color: #383838 !important;
+    --button-1-background-color: #181818 !important;
+    --button-1-border-color: rgba(184, 185, 248, 0.5) !important;
+    --button-2-background-color: #00336680 !important;
+    --button-3-color: rgba(184, 185, 248, 1) !important;
+    --button-3-border-color: rgba(184, 185, 248, 0.3) !important;
+    --button-4-color: #F97316ff !important;
+    --button-4-border-color: #F9731640!important;
+    --button-5-background-color: #181818 !important;
+    --button-6-color: rgba(184, 185, 248, 1) !important;
+    --button-6-background-color: #383838 !important;
+    --button-6-border-hover-color: rgba(184, 185, 248, 0.5) !important;
+    --button-7-background-color: #00336680 !important;
+    --button-8-background-color: #00336680 !important;
+    --textbox-1-textarea-color: #DCDCDC !important;
+    --textbox-1-border: rgba(184, 185, 248, 0.4) !important;
+    --group-2-border: rgba(106, 108, 134, 0.541) !important;
+    --group-1-background-color: #27272A !important;
+    --group-2-background-color: #383838 !important;
+    --group-2-shadow:rgba(255, 255, 255, 0.05) 0px 2px 6px, rgba(255, 255, 255, 0.03) 0px 6px 16px !important;
+    --chatbot-message-bot-background-color: rgba(25, 35, 37, 0.5) !important;
+    --chatbot-message-user-background-color: rgba(29, 86, 100, 0.6) !important;
+    --number-1-p-color: #F4F4F5 !important;
+    --dropdown-1-background-color: #27272A !important;
+    --dropdown-1-hover-background-color: #39393b !important;
+    --dropdown-1-color: #F4F4F5 !important;
+    --dropdown-1-listbox-color: #b2d7fa !important;
+    --dropdown-1-li-color: #ccff99 !important;
+    --slide-1-background-color: #27272A !important;
+    --radio-1-background-color: #27272A !important;
+    --radio-1-input-checked-color: white !important;
+    --radio-1-input-notchecked-color: #A9A9A9 !important;
+    --radio-1-input-hover-background-color: #27272A;
+    --radio-2-background-color: #27272A !important;
+    --radio-2-info-color: #F4F4F5 !important;
+    --file-1-background-color: #181818 !important;
+    --file-1-blocklevel-background-color: #27272A !important;
+    --file-1-blocklevel-color: #F4F4F5 !important;
+    --sidebar-toggle-button-bgcolor: #18181B !important;
+    --sidebar-toggle-button-chevronleft-color: #F4F4F5 !important;
+    --markdown-1-color: rgba(184, 185, 248, 0.99) !important;
+}
+
+/* Custom footer 
+footer {
+    display: none !important;
+}
+footer div.divider {
+  display: none !important;
+} *
+footer button.show-api {
+  display: none !important;
+} 
+footer .show-api-divider {
+  display: none !important;
+} */
+footer button.show-api {
+  pointer-events: none; 
+  font-size: 0;         
+}
+footer button.show-api img {
+  display: none !important;
+}
+footer button.show-api::after {
+  content: "Open-LLM-webchat"; 
+  font-size: 14px;
+  color: inherit;
+}
+/* footer a.built-with {
+  display: none !important;
+} 
+footer .show-api-divider {
+  display: none !important;
+}*/
+.banner-wrap:nth-of-type(4),
+.banner-wrap:nth-of-type(5) {
+  display: none !important;
+}
+.api-docs-wrap {
+  width: 20% !important;      
+  max-width: 20% !important;     
+}
+.url {
+  display: none !important;
+}
+
+
+/* Main container */
+.gradio-container {
+    background-color: var(--color-base-1);
+}
+
+/* Chatbot Scrollbar */
+.bubble-wrap {
+    background-color: var(--color-base-1);
+    scrollbar-color: var(--scroll-colors);
+}
+
+/* Hide trash button */
+.icon-button-wrapper {
+    display: none !important;
+}
+
+/* Chatbot */ 
+.avatar-container img {
+    padding: 0px !important;
+}
+.chatbot .avatar-container {
+    margin-bottom: -10px;
+    align-self: flex-end;
+}
+.chatbot .message.user {
+    margin-top: 0px;
+    background-color: var(--chatbot-message-user-background-color);
+    color: black;
+}
+.chatbot .message.bot {
+    margin-top: 0px;
+    background-color: var(--chatbot-message-bot-background-color);
+    color: black;
+}
+.chatbot {
+    text-align: left;
+    font-size: 16px !important;
+    border-radius: 5px;
+    border: none !important;
+}
+
+/* Chatbot Box Messages font-sizes */ 
+.chatbot code {
+  font-size: 13px !important; 
+}
+.chatbot strong {
+  font-size: 13px !important; 
+}
+.chatbot pre {
+  font-size: 15px !important;
+}
+.chatbot p {
+  font-size: 15px !important; 
+}
+
+/* Textbox */
+.textbox-1 {
+    margin-top: 0px;
+    width: 80%;
+    padding-left: 10px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: 1px solid var(--textbox-1-border);
+    background-color: var(--color-base-2);
+}
+.textbox-1 textarea { 
+    color: var(--textbox-1-textarea-color);
+    font-size: 15px;
+    background-color: var(--color-base-2);
+    scrollbar-width: none;
+}
+.textbox-1 textarea::-webkit-scrollbar {
+    display: none;
+}
+
+/* Buttons */
+/* Stop button */
+.button-1 {
+    background-color: var(--button-1-background-color);
+    border-radius: 15px; 
+    margin: 5px;
+    margin-left: auto;
+    max-width: 7%;
+    min-width: 1%;
+    border: 1px solid var(--button-1-border-color);
+}
+/* Tooltip via CSS */
+.button-1::after {
+  content: "Stop process"; 
+  position: absolute;
+  bottom: 100%; 
+  left: 92%;
+  transform: translateX(-50%);
+  background-color: #505050;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 100;
+  font-size: 14px;
+  border: 1px solid var(--button-1-border-color);
+}
+/* Show tooltip hover after */
+.button-1:hover::after {
+  opacity: 1;
+}
+
+/* Knowledge button */
+.button-2 {
+    color: #faf8f8;
+    background-color: var(--button-2-background-color);
+    border-radius: 5px;
+    max-width: 80%;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px auto;
+    margin-bottom: 4px;
+    border: 1px solid transparent; 
+    display: block;
+    transition: border 0.2s ease-in-out; 
+    cursor: pointer; 
+    border: 1px solid #505050;
+}
+/* Show border hover */
+.button-2:hover {
+    border: 1px solid #808080; 
+}
+
+/* Delete-session button */
+.button-3 {
+    color: var(--button-3-color);
+    background-color: #F9731600;
+    border-radius: 15px;
+    max-width: 40%;
+    min-width: 1%;
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid transparent; 
+    display: block;
+    transition: border 0.2s ease-in-out; 
+    cursor: pointer; 
+    border: 1px solid var(--button-3-border-color);
+}
+/* Show border hover */
+.button-3:hover {
+    border: 1px solid rgba(184, 185, 248, 0.5); 
+}
+
+/* Delete-all-sessions button */
+.button-4 {
+    color: var(--button-4-color);
+    background-color: #F9731600;
+    border-radius: 15px;
+    max-width: 40%;
+    min-width: 1%;
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid transparent; 
+    display: block;
+    transition: border 0.2s ease-in-out; 
+    border: 1px solid var(--button-4-border-color);
+}
+/* Show border hover */
+.button-4:hover {
+    border: 1px solid #F9731680; 
+}
+
+/* Start-new-session button */
+.button-5 {
+    background-color: var(--button-5-background-color);
+    border-radius: 15px; 
+    margin: 5px;
+    max-width: 7%;
+    min-width: 1%;
+    border: 1px solid var(--button-1-border-color);
+}
+/* Tooltip via CSS */
+.button-5::after {
+  content: "New session"; 
+  position: absolute;
+  bottom: 100%; 
+  left:13%;
+  transform: translateX(-50%);
+  background-color: #505050;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 100;
+  font-size: 14px;
+  border: 1px solid var(--button-1-border-color);
+}
+/* Show tooltip hover after */
+.button-5:hover::after {
+  opacity: 1;
+}
+
+/* Confirm-Cancel-modal button */
+.button-6 {
+    color: var(--button-6-color);
+    background-color: var(--button-6-background-color);
+    border-radius: 15px;
+    max-width: 100%;
+    border: 1px solid transparent; 
+    display: block;
+    margin-top: 10px;
+    transition: border 0.1s ease-in-out; 
+    cursor: pointer; 
+}
+/* Show border hover */
+.button-6:hover {
+    border: 1px solid var(--button-6-border-hover-color);
+}
+
+/* Clear-long-memory button */
+.button-7 {
+    color: #faf8f8;
+    background-color: var(--button-7-background-color);
+    border-radius: 5px;
+    max-width: 30%;
+    min-width: 1%;
+    padding: 30px;
+    margin: 5px auto;
+    border: 1px solid transparent; 
+    display: block;
+    transition: border 0.2s ease-in-out; 
+    cursor: pointer; 
+    border: 1px solid #505050;
+}
+/* Show border hover */
+.button-7:hover {
+    border: 1px solid #808080; 
+}
+
+/* Logout button */
+.button-8 {
+    color: #faf8f8;
+    background-color: var(--button-8-background-color);
+    border-radius: 5px;
+    max-width: 60%;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px auto;
+    margin-bottom: 4px;
+    border: 1px solid transparent; 
+    display: block;
+    transition: border 0.2s ease-in-out; 
+    cursor: pointer; 
+    border: 1px solid #505050;
+}
+/* Show border hover */
+.button-8:hover {
+    border: 1px solid #808080; 
+}
+
+/* Numbers */
+.number-1 input {
+    background-color: var(--number-1-input-background-color);         
+}
+.number-1 p {
+    color: var(--number-1-p-color);
+}
+
+/* Groups */
+.group-1 {
+    margin-top: 0px;
+    padding: 1px;
+    border-radius: 5px;
+    background-color: var(--group-1-background-color);
+}
+.group-2 {
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid var(--group-2-border);
+    background-color: var(--group-2-background-color);
+    box-shadow: var(--group-2-shadow);
+}
+
+/* Rows */
+.row-1 {
+    padding: 5px;
+    background-color: var(--row-1-backgound-color);
+}
+.row-2 {
+    margin-top: -1px;
+    padding: 5px;
+    background-color: var(--row-2-backgound-color);
+}
+.row-3 {
+    padding: 0px;
+    display: flex;
+    justify-content: center; 
+}
+.row-4 {
+    justify-content: center;   
+    align-items: center;
+}
+
+/* Dropdowns */
+.dropdown-1 {
+    background-color: var(--dropdown-1-background-color);
+    color: var(--dropdown-1-color);
+}
+.dropdown-1 input[role="listbox"] {
+    background-color: var(--dropdown-1-background-color);
+    color: var(--dropdown-1-listbox-color);
+}
+.dropdown-1 li {
+    color: var(--dropdown-1-li-color);
+    background-color: var(--dropdown-1-background-color);
+}
+.dropdown-1 .wrap-inner{
+    background-color: var(--dropdown-1-background-color);
+}
+.dropdown-1 .icon-wrap{
+    color: var(--dropdown-1-color);
+}
+.dropdown-1 li:hover {
+    background-color: var(--dropdown-1-hover-background-color);
+}
+
+/* Slides */
+.slider-1 {
+    background-color: var(--slide-1-background-color);
+}
+/* Slide range button - WebKit (Chrome, Edge, Safari) */
+.slider-1 input[type="range"]::-webkit-slider-thumb {
+    border: 1px solid grey;
+}
+/* Slide range button - Firefox */
+.slider-1 input[type="range"]::-moz-range-thumb {
+    border: 1px solid grey;
+}
+
+/* Markdowns */
+#markdown-1 h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--markdown-1-color);
+}
+#markdown-2 {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Radios */
+.radio-1 {
+    max-height: 260px !important;
+    scrollbar-color: var(--scroll-colors);
+}
+.radio-1 label {
+    display: inline-block;
+    max-width: 340px; /* ajuste conforme necessário */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    background-color: var(--radio-1-background-color);
+}
+.radio-1 input[type="radio"]:not(:checked) + span {
+    color: var(--radio-1-input-notchecked-color);
+}
+.radio-1 input[type="radio"]:checked + span {
+    color: var(--radio-1-input-checked-color);
+}
+.radio-1 label.selected {
+    background-color: var(--radio-1-background-color);
+}
+.radio-1 label:hover {
+    background-color: var(--radio-1-background-color);
+}
+.radio-1 p {
+    color: var(--radio-2-info-color);
+}
+
+.radio-2 label.selected {
+    background-color: var(--radio-2-background-color);
+}
+.radio-2 label:hover {
+    background-color: var(--radio-2-background-color);
+}
+.radio-2 label {
+    background-color: var(--radio-2-background-color);
+}
+.radio-2 p {
+    color: var(--radio-2-info-color);
+}
+
+/* Modals - responsive */
+.modal-1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 90vw;             /* largura responsiva */
+    max-width: 500px;        /* limite máximo */
+    min-width: 280px;        /* limite mínimo */
+
+    height: auto;
+    max-height: 80vh;        /* altura máxima com base na tela */
+    overflow-y: auto;        /* rolagem se o conteúdo passar do limite */
+
+    border-radius: 15px;
+    border: 1px solid rgba(184, 185, 248, 0.5);
+    padding: 0px !important;
+}
+
+/* Modals - adjustments for smaller screens */
+@media (max-width: 480px) {
+    .modal-1 {
+        width: 95vw;
+    }
+}
+.modal-container {
+    padding: 0px;
+    margin: 0px;
+}
+.modal-block {
+    padding: 40px;
+    background-color: var(--color-base-3);
+}
+
+/* SideBars */
+.sidebar-1 {
+    max-width: 420px !important;
+}
+.sidebar {
+    border-right: 1px solid rgba(184, 185, 248, 0.2);
+    background-color: var(--color-base-2);
+}
+.sidebar-content {
+    scrollbar-width: none !important;
+}
+/* Sidebar Toggle */
+.toggle-button {
+    background-color: var(--sidebar-toggle-button-bgcolor);
+}
+.chevron-left {
+    border-top: 2px solid var(--sidebar-toggle-button-chevronleft-color); 
+    border-right: 2px solid var(--sidebar-toggle-button-chevronleft-color); 
+}
+
+/* Accordions */
+.accordion-1 {
+    max-width: 340px;
+    background-color: var(--color-base-3);
+}
+.accordion-1 span {
+    color: var(--color-base-4);
+}
+
+/* File */
+.file-1 {
+    background-color: var(--file-1-background-color);
+    border-radius: 7px; 
+    border: 1px solid #505050;
+}
+.file-1 [data-testid="block-label"] {
+  background-color: var(--file-1-blocklevel-background-color);
+  color: var(--file-1-blocklevel-color);                  
+}
+.file-1 div {
+  background-color: var(--file-1-background-color);
+  color: var(--file-1-blocklevel-color);                  
+}
+
+/* Images */
+.image-1 img {
+    border-radius: 50%;
+    width: 100px;           
+    height: 100px;         
+    object-fit: cover;    
+    border: 2px solid #ddd; 
+}
+
+
+
+
+

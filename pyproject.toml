@@ -1,0 +1,31 @@
+[tool.poetry]
+package-mode = false
+
+[project]
+name = "open-llm-webchat-env"
+version = "0.1.0"
+description = "A open source webchat app for integrate LLMs in a nice visual way."
+authors = [
+    { name = "Fabrício Siqueira" }
+]
+requires-python = ">=3.12, <4.0"
+dependencies = [
+    "gradio==5.49.1",
+    "gradio-modal>=0.0.4,<0.0.5",
+    "dotenv>=0.9.9,<0.10.0",
+    "agno==2.1.1",
+    "groq>=0.32.0,<0.33.0",
+    "google-genai>=1.41.0,<2.0.0",
+    "sqlalchemy>=2.0.43,<3.0.0",
+    "chromadb>=1.1.0,<2.0.0",
+    "pypdf>=6.1.1,<7.0.0",
+    "mcp>=1.16.0,<2.0.0",
+    "colorama>=0.4.6,<0.5.0",
+    "docker>=7.1.0,<8.0.0",
+    "ollama>=0.6.0,<0.7.0",
+    "openai>=2.3.0,<3.0.0"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
