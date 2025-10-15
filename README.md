@@ -157,11 +157,12 @@ systemctl restart ollama
 
 - Infrastructure
 
-| Component      | Version |
-| -------------- | ------- |
-| Docker Engine  | 28.1.1  |
-| Docker Compose | 2.34.0  |
-| Ollama         | 0.6.3   |
+| Components      | Version |
+| --------------- | ------- |
+| Docker Engine   | 28.1.1  |
+| Docker Compose  | 2.34.0  |
+| Ollama          | 0.6.3   |
+| Poetry          | 2.1.1   |
 
 <br/>
 
